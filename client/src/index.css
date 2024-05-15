@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+}
+
+.ql-editor {
+  font-size: 1.1rem;
+}
+
+/* .css-y6ff8p-MuiResponsiveChart-container {
+  background-color: aqua;
+  /* position: absolute; */
+/* width: 2000px; */
+/* width: auto !important; */
+/* padding: 100px; */
+/* } */
+*/
+/* .css-y6ff8p-MuiResponsiveChart-container {
+} */
+.css-1edvt19-MuiResponsiveChart-container {
+  width: auto !important;
+}
+
+.post-content p {
+  margin-bottom: 0.5rem;
+}
+
+.post-content h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin: 1.5rem 0;
+}
+
+.post-content a {
+  color: rgb(73, 149, 199);
+}
+.post-content a:hover {
+  text-decoration: underline;
+}
+.dark .post-content a {
+  color: red;
+}
